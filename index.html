@@ -1,18 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Padna Ecommerce by Maruf</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padna Ecommerce by Maruf</title>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@500;600;800&display=swap"
+    rel="stylesheet">
+
+  <!-- FONTAWESOME KIT -->
+  <script src="https://kit.fontawesome.com/a5dd98869a.js" crossorigin="anonymous"></script>
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+  <!-- HEADER START -->
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- IMAGES SLIDER START -->
+
+    <section class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner rounded-3 mt-5">
+          <div class="carousel-item active">
+            <div class="row d-flex align-items-center p-4" style="background-color: #FEEAE9
+            ">
+              <div class="col-lg-7">
+                <h1>Cool Dude Headphone
+                </h1>
+                <p>This is the best headphone in the world for people who just want to waste time in front of funky
+                  world.</p>
+                <h1>$420</h1>
+                <button class="btn btn-danger">Buy Now</button>
+              </div>
+
+              <div class="col-lg-5">
+                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center p-4" style="background-color: #FEEAE9">
+              <div class="col-lg-7">
+                <h1>Mega LCD TV For Sports</h1>
+                <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                <h1>$1200</h1>
+                <button class="btn btn-danger">Buy Now</button>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex align-items-center p-4" style="background-color: #FEEAE9
+            ">
+              <div class="col-lg-7">
+                <h1>X-Box for your living room</h1>
+                <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.
+                </p>
+                <h1>$600</h1>
+                <button class="btn btn-danger">Buy Now</button>
+              </div>
+
+              <div class="col-lg-5">
+                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- IMAGES SLIDER END -->
+  </header>
+
+  <!-- HEADER END -->
 
 
-<!-- =====JS LINK===== -->
-<script src="js/bootstrap.bundle.min.js"></script>
+  <!-- =====JS LINK===== -->
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

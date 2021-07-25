@@ -5,3 +5,34 @@ h1, h2, h3, h4, h5, h6, a{
 body, p{
     font-family: 'Inter', sans-serif;
 }
+
+/* CUSTOM STYLE */
+
+.panda-bg-info{
+    background-color: #feeae9;
+}
+
+#subscribe{
+    height: 300px;
+}
+
+.sec-cat{
+    background-color: #DA70D6;
+}
+
+.third-cat{
+    background-color: #0000FF;
+}
+
+.categories img{
+    width: 100px;
+}
+
+.btn-color{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+}
+
+.slider-amount{
+    color: #FF136F;
+}
